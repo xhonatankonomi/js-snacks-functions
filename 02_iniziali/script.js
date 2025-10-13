@@ -23,6 +23,7 @@ const initials = (array)  => {
 
 // Invoca la funzione qui e stampa il risultato in console
 
-
+const arrayVowels = intials(names);
+console.log(arrayVowels);
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]

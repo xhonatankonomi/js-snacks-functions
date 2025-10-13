@@ -15,6 +15,16 @@ function wordInitials(array) {
     return newArray;
 }
 
+const wordInitials = (array) => {
+    let newArray = [];
+    for (let i = 0; i < array.length; i++) {
+        if (array[i][0] === 'A') {
+            newArray.push(array[i]);
+        }
+    }
+    return newArray;
+}
+
 // Invoca la funzione qui e stampa il risultato in console
 
 const arrayInitials = wordInitials(names);

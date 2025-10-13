@@ -12,7 +12,6 @@ const saluto = (name) => {
     return `ciao ${name}`
 }
 
-
 // Invoca la funzione qui e stampa il risultato in console
 
 const salutoUmano = saluto(userName);

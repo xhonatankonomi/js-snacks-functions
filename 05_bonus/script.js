@@ -21,6 +21,17 @@ function greeting(name) {
     }
 }
 
+const greeting = (name) => {
+    let time = new Date().getHours();
+    if (time >= 0 && time < 13) {
+        return `buongiorno ${name}`;
+    } else if (time >= 13 && time < 17) {
+        return `buon pomeriggio ${name}`;
+    } else {
+        return `buonasera ${name}`;
+    }
+}
+
 // Invoca la funzione qui e stampa il risultato in console
 
 const greetingUser = greeting(name);
